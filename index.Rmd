@@ -9,10 +9,10 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 ### Authors
 
-Names of your team members
+Hilton Nguyen, Alexis Dimas, Mercedes Ro, & Jordan Lee Bailey.
 
 ### Date
-
+02/24/2023
 Winter 2022
 
 ### Abstract
@@ -21,8 +21,7 @@ No more than three sentences that summarize your project. Focus on the very most
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords:
 
 ### Introduction  
 
