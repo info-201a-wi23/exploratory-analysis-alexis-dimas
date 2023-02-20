@@ -72,7 +72,9 @@ Here's an example of how to run an R script inside an RMarkdown file:
 
 ### Chart 2
 
-ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity')
+ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity') + labs(title = 'Relationship sucess based on usage of Tinder')
+
+
 
 I chose this chart show how many relationships come out of tinder. Matches are a relevant part to the app, but moreorso the important topic is longeiviety and if these matches last.
 
