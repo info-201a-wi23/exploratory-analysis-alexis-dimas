@@ -21,5 +21,7 @@ outcome <- c(tinderydf$outcome, tinderndf$outcome)
 count <- c(tinderydf$count, tinderndf$count)
 tinderdf <- data.frame(tinder_groups, outcome, count)
 
-ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity')
+ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity') + labs(title = 'Relationship sucess based on usage of Tinder')
+
+
 
