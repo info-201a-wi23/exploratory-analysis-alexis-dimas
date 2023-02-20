@@ -1,5 +1,5 @@
 ---
-title: "Exploratory Analysis"
+title: "Tinder relationship Exploratory Analysis"
 output: html_document
 ---
 
@@ -72,9 +72,10 @@ Here's an example of how to run an R script inside an RMarkdown file:
 
 ### Chart 2
 
-Include a chart
+ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity')
 
-Describe why you chose this chart and what information it reveals
+I chose this chart show how many relationships come out of tinder. Matches are a relevant part to the app, but moreorso the important topic is longeiviety and if these matches last.
+
 
 ### Chart 3
 
