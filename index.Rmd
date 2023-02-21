@@ -1,53 +1,66 @@
 ---
-title: "Tinder relationship Exploratory Analysis"
+title: "Tinder Relationship Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
-
-Give your project a concise, interesting title that summarizes the entirety of your project
+## Tinder Success Rate Among Millennial College Students
 
 ### Authors
-
-Hilton Nguyen, Alexis Dimas, Mercedes Ro, & Jordan Lee Bailey.
+Alexis Dimas alexisdi@uw.edu
+Hilton Nguyen hnguye@uw.edu
+Mercedes Ro mro8@uw.edu
 
 ### Date
-02/24/2023
-Winter 2022
+02/20/2023
+Winter 2023
 
 ### Abstract
-
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main question is how dating apps create long lasting relationships and how do they match people to find love. We chose this question because it has become very prevalent that people use dating apps to find others, after covid started. Now we see how many relationships have sprouted from dating apps.
 
 ### Keywords
-
-Keywords:
+Dating, relationships, dating app, couples
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+For our project we really wanted to analyze different relationships and the longevity of them, since the start of covid data apps have become a huge part in successful relationships during the pandemic. This leads us into the questions we would like to answer: 
+
+*How is the longevity of a relationship affected by the different types of dating styles?* 
+
+*What is the best way to find love traditionally or from dating applications?*
+
+*How can knowing people's basic information affect the people we chose?*
+
+*How will online dating change in the future?*
+
+*Will online dating make finding love simpler?* 
+
+These questions have become so important because this is how the new generation finds their significant others, dating apps are now heavily relied on for relationships. First we would want to research the difference in relationship longevity of traditional dating compared to online dating. From this information we can see the difference in relationships before and after covid, and how dating applications have perfected their way through to help people find their ideal matches just from the information they have laid out. We want to find how finding love will change down the line, and how it can be perfected for people to find love and have them be long lasting.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+Dating apps have a lot to do with self esteem, the more confident you are the more success you will have with dating apps. This specific article describes the struggles of having low self esteem on dating apps and the results you end up with compared to having high self esteem and the results are more than you expect. Dating apps are more about the social presences and how you carry yourself, which attracts people to you. Dating apps give you the ability to appear a certain way and be the opposite of how you are in person, making online dating a more effective way of meeting people. 
+
+Fullwood, Chris, and Alison Attrill-Smith. “Up-Dating: Ratings of Perceived Dating Success Are Better Online than Offline.” Cyberpsychology, behavior and social networking vol. 21,1 (2018): 11-15. doi:10.1089/cyber.2016.0631
+
+Through dating apps you have the ability to present yourself to certain groups or filter what you are looking for in a relationship/partner. This study shows that dating apps give people a second chance to explore their past, for example, people who have gotten divorced and are now looking for something new.  This gives them the ability to find themselves and explore the areas they never really got to explore. 
+
+Young, Goldthwaite Dannagal, and Scott E Caplan. “Online dating and conjugal bereavement.” Death studies vol. 34,7 (2010): 575-605. doi:10.1080/07481181003761542
+
+Online dating has been viewed as negative throughout the years, but as time has gone by it is seen as positive. Dating apps give people the ability to explore rather than settling down right away causing them to be unhappy in their relationships, online dating lets people explore and have fun before committing to someone and later down the road having regrets. 
+
+Smith, Aaron. “Online Dating & Relationships.” Pew Research Center: Internet, Science & Tech, Pew Research Center, 30 May 2020, https://www.pewresearch.org/internet/2013/10/21/online-dating-relationships/. 
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+After reviewing multiple datasets we settled on _Tinder Millennial Match Rate_. A link to the data source can be found [here](https://www.kaggle.com/datasets/benroshan/tinder-millennial-match-rate). The data was collected by Adam Halper, he is the founder and CEO of _Whatsgoodly_ a company which focuses on polling millennials on a variety of topics. Over six years ago, Adam surveyed millennial college students from dozens of universities to understand their quest on finding a partner. The main goal for the data collection was to see the success rate of millennials forming relationships through _Tinder_. Nowadays, it can be very difficult to socialize with others, causing a demand for dating applications like _Tinder_. It’s a lot easier to find potential partners because you can learn a lot about them by viewing their profiles. However, this does not necessarily mean that all interactions on _Tinder_ will lead to long-lasting relationships. This dataset will be able to showcase the success rate that millennials had on _Tinder_. There are 7 total columns and 453 rows in the dataset. This includes the responses to the survey questions, number of responses, and brief information about the respondents. There was one ethical question that we considered and that was the privacy of respondents. Most romantic relationships are private between two individuals and perhaps some respondents to the survey may not have been open to sharing about their romantic life. This leads to the biggest potential issue with this dataset, not having enough information to evaluate the effectiveness of _Tinder_.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+Finding out the different forms of dating can not only help us understand the efficiency of specific methods of forming relations, but can also help us research other areas. For example, people can study _Tinder’s_ specific match-making capabilities with the limited data given such as age, bio, and hobbies, and see how successful online dating can be seen through the success rate of this method. Moreover, through the trend of to formulate relationships, we can help find a general consensus for why success is found amongst relationships, and where your best bet to find love. This can allow us to draw reasonable conclusions on relationships, and help our society grow, as they take on more relationships down the line.  For example, with this information, we can see what mediums fo relationships are most efficient and how we can optimize a specific medium to increase our chances of love. Due to this research, the audience can see how much true romance is created through methods of dating, and what truly makes a relationship longlasting.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+As mentioned before, one of the biggest challenges with working on this project is not having enough data to work with. A survey can only ask so much before respondents begin to feel an invasion of privacy. Some people are comfortable sharing their relationship status but that number begins to gradually decrease the more questions you ask such as partner information and if the relationship is going well. This dataset simply provides brief information about the respondents, whether they have used _Tinder_, and their success in forming a relationship through _Tinder_. There is no more data provided on if those who found success using _Tinder_ are currently happy in the relationship or if the relationship they began ended after a certain amount of time. Which leads to the next limitation and that is the time in which this data was collected. It has been six years since and the dataset has not been updated. This may give us a good look into how people form relationships back in the early 2010s but things may look different now due to life changing events such as the COVID-19 pandemic.
 
 ### Summary Information
 
@@ -64,19 +77,18 @@ Describe why you included the table and what information it reveals
 ``````{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart1.R"), fig.width = 10}
 ```
 
-This chart was chosen to show the number of users who don't get matches to those who do and are successful in forming a relationship on Tinder. The information revealed is quite intriguing, it shows that a vast majority of users do not get matched on Tinder and those who do have little success in forming a relationship.
+This chart was chosen to show the number of users who don't get matches to those who do and are successful in forming a relationship on _Tinder_. The information revealed is quite intriguing, it shows that a vast majority of users do not get matched on _Tinder_ and those who do have little success in forming a relationship.
 
 ### Chart 2
 
-ggplot(tinderdf, aes(x = outcome, y = count, fill = tinder_groups)) + geom_bar( stat = 'identity') + labs(title = 'Relationship sucess based on usage of Tinder')
+``````{r chart2, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart2.R"), fig.width = 10}
+```
 
-
-
-I chose this chart show how many relationships come out of tinder. Matches are a relevant part to the app, but moreorso the important topic is longeiviety and if these matches last.
-
+I chose this chart to show how many relationships come out of _Tinder_. Matches are a relevant part to the app, but more so the important topic is longevity and if these matches last.
 
 ### Chart 3
 
-Include a chart
+``````{r chart3, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart3.R"), fig.width = 8}
+```
 
-Describe why you chose this chart and what information it reveals
+A pie chart would show the responses as a whole to see any major differences between user experiences on _Tinder_. The most interesting part of the chart is the number of no matches and matches that males got compared to females. There were more males that received no matches than females but there were less females that got a match than males.
