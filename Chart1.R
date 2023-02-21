@@ -1,5 +1,5 @@
 # Alexis Chart1.R
-# The number of matches that college students experienced on Twitter. And the number of successful relationships created.
+# The number of matches that college students experienced on Tinder. And the number of successful relationships created.
 
 # Load libraries
 library("ggplot2")
@@ -49,6 +49,7 @@ data <- data.frame(
   name = factor(names, levels = names)
 )
 
+# Creates horizontal bar chart
 Tinder_Color = "#FF5864"
 ggplot(data, aes(x = count, y = name)) + 
   geom_col(aes(count, name), fill = Tinder_Color, width = 0.5) + 
