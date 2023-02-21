@@ -1,6 +1,7 @@
 # Exploratory Analysis
 
-Link to your group's exploratory analysis here: https://github.com/info-201a-wi23/exploratory-analysis-alexis-dimas.git  
+Link to your group's exploratory analysis here:
+https://info-201a-wi23.github.io/exploratory-analysis-alexis-dimas/
 (subsitute for your group's GitHub pages site)
 
 The purpose of this assignment is to provide you with the opportunity to explore your final project data and become familiar with collaborative coding techniques. By completing the assignment, you will demonstrate the following skills:
