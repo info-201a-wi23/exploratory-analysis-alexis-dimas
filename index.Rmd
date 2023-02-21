@@ -9,6 +9,7 @@ output: html_document
 Alexis Dimas alexisdi@uw.edu
 Hilton Nguyen hnguye@uw.edu
 Mercedes Ro mro8@uw.edu
+Jordan Lee Bailey chewydog@uw.edu 
 
 ### Date
 02/20/2023
