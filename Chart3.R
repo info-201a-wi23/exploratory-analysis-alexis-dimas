@@ -22,6 +22,7 @@ data <- data.frame(
 ggplot(data, aes(x = "", y = Value, fill = Group)) + 
   geom_bar(width = NULL, stat = "identity") + 
   coord_polar(theta = "y", start = 0) + 
+  labs(title = 'Number of Tinder matches across users') + 
   geom_label(aes(label = Value), position = position_stack(vjust = 0.5),
              show.legend = FALSE) + 
   theme_void()
