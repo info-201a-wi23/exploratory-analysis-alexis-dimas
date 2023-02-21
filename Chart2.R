@@ -21,7 +21,7 @@ tinderndf<- tinder %>%
 tinder_groups <- c(tinderydf$Answer, tinderndf$Answer)
 Relationship <- c(tinderydf$outcome, tinderndf$outcome)
 Users <- c(tinderydf$count, tinderndf$count)
-tinderdf <- data.frame(tinder_groups, outcome, count)
+tinderdf <- data.frame(tinder_groups, Relationship, Users)
 
 ggplot(
   tinderdf, 
