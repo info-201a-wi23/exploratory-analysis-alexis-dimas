@@ -61,14 +61,10 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+``````{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart1.R"), fig.width = 10}
 ```
+
+This chart was chosen to show the number of users who don't get matches to those who do and are successful in forming a relationship on Tinder. The information revealed is quite intriguing, it shows that a vast majority of users do not get matched on Tinder and those who do have little success in forming a relationship.
 
 ### Chart 2
 
