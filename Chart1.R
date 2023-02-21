@@ -52,4 +52,5 @@ data <- data.frame(
 Tinder_Color = "#FF5864"
 ggplot(data, aes(x = count, y = name)) + 
   geom_col(aes(count, name), fill = Tinder_Color, width = 0.5) + 
-  geom_text(aes(label = count), vjust = 0.5, hjust = -0.1) + blank_theme
+  geom_text(aes(label = count), vjust = 0.5, hjust = -0.1) + blank_theme + 
+  labs(title = 'Matches to Relationships Formed on Tinder')
