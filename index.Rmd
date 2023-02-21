@@ -75,21 +75,21 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1
 
-``````{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart1.R"), fig.width = 10}
+```{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart1.R"), fig.width = 10}
 ```
 
 This chart was chosen to show the number of users who don't get matches to those who do and are successful in forming a relationship on _Tinder_. The information revealed is quite intriguing, it shows that a vast majority of users do not get matched on _Tinder_ and those who do have little success in forming a relationship.
 
 ### Chart 2
 
-``````{r chart2, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart2.R"), fig.width = 10}
+```{r chart2, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart2.R"), fig.width = 10}
 ```
 
 I chose this chart to show how many relationships come out of _Tinder_. Matches are a relevant part to the app, but more so the important topic is longevity and if these matches last.
 
 ### Chart 3
 
-``````{r chart3, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart3.R"), fig.width = 8}
+```{r chart3, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart3.R"), fig.width = 8}
 ```
 
 A pie chart would show the responses as a whole to see any major differences between user experiences on _Tinder_. The most interesting part of the chart is the number of no matches and matches that males got compared to females. There were more males that received no matches than females but there were less females that got a match than males.
