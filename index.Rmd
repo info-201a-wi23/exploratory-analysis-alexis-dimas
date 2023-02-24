@@ -65,7 +65,7 @@ As mentioned before, one of the biggest challenges with working on this project 
 
 ### Summary Information
 
-Our analysis shows Millennial who use Tinder and how many successful relationships have come out of using Tinder. In our data we see the average percentage of the outcome ____ of the relationship and how many people use Tinder as a source to finding love. The data shows ____ use Tinder, but there are very little successful relationships that come out of it. The Number of relationships without Tinder was _____, and the amount of Tinder matches/dates people had were _____. 
+Our analysis shows Millennial who use Tinder and how many successful relationships have come out of using Tinder. In our data we see the average percentage of the outcome 0.33% of the relationship and how many people use Tinder as a source to finding love. The data shows 2 people use Tinder, but there are very little successful relationships that come out of it. The Number of relationships without Tinder was 1 out of 6, and the amount of Tinder matches/dates people had were 1,269. 
 
 ### Table
 
