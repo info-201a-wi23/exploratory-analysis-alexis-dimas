@@ -65,13 +65,19 @@ As mentioned before, one of the biggest challenges with working on this project 
 
 ### Summary Information
 
-Our analysis shows Millennial who use Tinder and how many successful relationships have come out of using Tinder. In our data we see the average percentage of the outcome 0.33% of the relationship and how many people use Tinder as a source to finding love. The data shows 2 people use Tinder, but there are very little successful relationships that come out of it. The Number of relationships without Tinder was 1 out of 6, and the amount of Tinder matches/dates people had were 1,269. 
+I saw a trend in the data of results in using _Tinder_ and the different ways people used _Tinder_. There were `r people_moblie` who used mobile devices to find people, there were `r people_web` who used the web to meet people, and for Universities `r people_University` people used _Tinder_. Then I checked how many female `r female_respondents`and male `r male_respondents` respondents who used _Tinder_. 
+
 
 ### Table
 
 Include a table of aggregate information
 
-Describe why you included the table and what information it reveals
+```{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Table.R"), fig.width = 10}
+kable(gender_df[1:7])
+```
+
+
+The table shows the male and female that have gotten into relationships after using _Tinder_. We see that there are more "no's" than "yes's" present. 
 
 ### Chart 1
 
