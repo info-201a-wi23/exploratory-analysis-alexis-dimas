@@ -65,19 +65,18 @@ As mentioned before, one of the biggest challenges with working on this project 
 
 ### Summary Information
 
-I saw a trend in the data of results in using _Tinder_ and the different ways people used _Tinder_. There were `r people_moblie` who used mobile devices to find people, there were `r people_web` who used the web to meet people, and for Universities `r people_University` people used _Tinder_. Then I checked how many female `r female_respondents`and male `r male_respondents` respondents who used _Tinder_. 
+```{r summary, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("summary.R")}
+```
+
+There was a trend in the dataset on what devices were used and who used _Tinder_. Of those surveyed, there were `r people_mobile` users who used _Tinder_ on mobile devices, there were `r people_web` users who used the web, and a total of `r people_University` people were university students who used _Tinder_. Finally, there were `r female_respondents` female respondents and `r male_respondents` male respondents who used _Tinder_. 
 
 
 ### Table
 
-Include a table of aggregate information
-
-```{r chart1, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Table.R"), fig.width = 10}
-kable(gender_df[1:7])
+```{r table, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Table.R")}
 ```
 
-
-The table shows the male and female that have gotten into relationships after using _Tinder_. We see that there are more "no's" than "yes's" present. 
+The table shows the responses from males and females and their use of _Tinder_.
 
 ### Chart 1
 
